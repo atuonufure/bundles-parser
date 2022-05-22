@@ -65,7 +65,7 @@ def compress_patients():
     for file in os.listdir("merged_patients"):
         if file.endswith(".ndjson"):
             os.system("gzip -9 merged_patients/" + file)
-    print("Completed")
+    print("Complete")
 
 
 def create_folders():
