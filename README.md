@@ -1,7 +1,9 @@
-# Patient-extractor
+# Bundles-parser
 
-An application that prepares an archive with patients for sending to the aidbox using the $load operation, extracting patients from bundles when each patient is in a separate bundle
+The application extracts resources from all bundles and collects them into one archive with a file containing all resources in ndjson format.
 
-1. Put bundles with patients in the bundles folder
-2. Run app.py file
-3. Get the archive in the merged_patients folder
+## How to prepare an archive
+
+1. Put bundles in the bundles folder
+2. Run main.py file
+3. Get the archive in the current folder
